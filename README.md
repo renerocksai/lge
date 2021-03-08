@@ -1,5 +1,4 @@
-# lge
-Lua Game Exercises
+# lge - Lua Game Exercises
 
 # 1. Lua Windows hello world
 - Lua for Windows runterladen und installieren
