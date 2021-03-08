@@ -10,10 +10,14 @@
 - Du wirst auf der Console (Windows Terminal oder was auch immer) arbeiten muessen, um Lua aufzurufen und Dein Script auszufuehren.
 - Du kannst schauen, wie Du Visual Studio Code so einrichtest, dass Du Dein Script im eingebauten Terminal ausfuehren kannst.
 
+
 ## 1.2 Lua Game hello world
+
 - irgendwas im Game durch ein einfaches Lua-Script anzeigen
 - z.B. "hello, world"
+
 Da ich (noch) keine Ahnung von dem Game und der Lua-Schnittstelle hab, kann ich hier keine Tipps geben.
+
 
 # 2. Challenge #2 : Match-Making Basics 1
 Lade dieses GitHub-Repository runter. Im Verzeichnis `data/` befindet sich `server1.csv`. Wir tun mal so, als waeren diese Daten vom Server gekommen.
