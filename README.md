@@ -2,7 +2,7 @@
 
 # 1. First Challenges 
 
-# 1.1 Lua Windows hello world
+## 1.1 Lua Windows hello world
 
 - Lua for Windows runterladen und installieren
 - das Script soll einfach nur "hello world" auf die Console schreiben und fertig.
@@ -10,7 +10,7 @@
 - Du wirst auf der Console (Windows Terminal oder was auch immer) arbeiten muessen, um Lua aufzurufen und Dein Script auszufuehren.
 - Du kannst schauen, wie Du Visual Studio Code so einrichtest, dass Du Dein Script im eingebauten Terminal ausfuehren kannst.
 
-# 1.2 Lua Game hello world
+## 1.2 Lua Game hello world
 - irgendwas im Game durch ein einfaches Lua-Script anzeigen
 - z.B. "hello, world"
 Da ich (noch) keine Ahnung von dem Game und der Lua-Schnittstelle hab, kann ich hier keine Tipps geben.
@@ -35,17 +35,37 @@ Bsp:
 ```
 Points    | User
 ----------+------------
-10000     | user234
-  234     | user4390
+  759     | user234
+ 1000     | user4390
+  312     | jhkgb890
+78900     | jhfthsg5465
+...
+
 ```
 
 
 # 3. Challenge #3 : Match-Making Basics 2
+
+# 3.1 Top-3
 Die neue Aufgabe lautet nun: Schreibe ein Lua-Script, das:
 
 - `data/server1.csv` einliest
 - die 3 User mit den hoechsten Punktzahlen findet
-- und diese wie in 3. ausgibr, nur : **sortiert** nach absteigender Punktezahl
+- und diese aehnlich wie in #2 ausgibt, nur : 
+  - **sortiert** nach absteigender Punktezahl
+  - Spaltenreihenfolge User, Points
 
-**Achtung**: Wie Du sehen wirst, ist die erste Zeile im CSV-File ein Header - den brauchen wir nicht.
+Bsp:
 
+```
+--------------------
+Top-3:
+--------------------
+jhfthsg5465 : 78900
+   user4390 :  1000
+    user234 :   312
+```
+
+
+# 3.2 Top-n
+Wie 3.1 - nur diesmal soll ueber einen Parameter steuerbar sein, wieviele Top-User man sehen moechte (also 3 fuer die Top-3 oder 5 fuer die Top-5, etc.).
